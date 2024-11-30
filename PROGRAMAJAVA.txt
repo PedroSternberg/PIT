@@ -1,0 +1,25 @@
+import java.util.Scanner;
+import java.util.*;
+
+public class NOTAALUNOMEDIA{
+
+Public static void MAIN(){
+Double NOTA=0;
+String NOMEALUNO;
+Scanner LER = new Scanner(System.in);
+Double NOTAMEDIA=0;
+
+SYSO("Digite o nome do aluno");
+NOMEALUNO=LER.next();
+SYSO("Digite a nota do aluno");
+NOTA=LER.nextDouble();
+SYSO("Digite a nota média");
+NOTAMEDIA=LER.nextDouble();
+
+if(NOTA<NOTAMEDIA){
+SYSO("O Aluno ", NOMEALUNO, " está reprovado!"
+}Else{
+SYSO("O Aluno ", NOMEALUNO, " está Aprovado! PARABÉNS!!!"
+}
+}
+}
